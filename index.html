@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy 17th Birthday Ghousia!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="bg-music" src="birthday-music.mp3" loop></audio>
+
+  <!-- Fireworks Canvas -->
+  <canvas id="fireworks"></canvas>
+
+  <!-- Envelope Animation -->
+  <div id="envelope-container">
+    <div id="envelope" class="envelope">
+      <div class="envelope-flap"></div>
+      <div class="envelope-body"></div>
+      <div class="envelope-letter">
+        <span>💌 Open Me! 💌</span>
+      </div>
+    </div>
+    <div id="envelope-emojis">
+      <span class="emoji">🎉</span>
+      <span class="emoji">🎈</span>
+      <span class="emoji">🎂</span>
+      <span class="emoji">🥳</span>
+      <span class="emoji">🌟</span>
+    </div>
+  </div>
+
+  <!-- Birthday Card Animation -->
+  <div id="card-container" class="hide">
+    <div class="card">
+      <div class="card-front">
+        <img src="images/ghousia-photo.jpg" alt="Ghousia" class="profile-img"/>
+        <h2>Dear Ghousia <span class="emoji">🥰</span></h2>
+        <p>
+          Wishing you a magical year filled with laughter, dreams, and endless blessings.<br>
+          <span class="emoji">💜🌸🦋</span>
+          <br>Click to turn the page!
+        </p>
+      </div>
+      <div class="card-back">
+        <img src="images/party-bg.jpg" alt="Party" class="party-bg"/>
+        <h2>Happy 17th Birthday! <span class="emoji">🎂✨</span></h2>
+        <p>
+          <span class="emoji">🌟</span> May Allah bless you with endless joy, wisdom, &amp; success. <span class="emoji">🌟</span><br>
+          Shine bright always! <span class="emoji">💖</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Celebration Scene -->
+  <div id="magic-scene" class="hide">
+    <!-- Balloons will be injected here -->
+    <div id="balloons"></div>
+    <!-- Cake Area -->
+    <div id="cake-area">
+      <div class="cake">
+        <img src="images/cake.png" alt="Birthday Cake" class="cake-img"/>
+        <div class="candles">
+          <img src="images/candle.png" class="candle" style="left:24px">
+          <img src="images/candle.png" class="candle" style="left:54px">
+          <img src="images/candle.png" class="candle" style="left:84px">
+          <img src="images/candle.png" class="candle" style="left:114px">
+          <img src="images/candle.png" class="candle" style="left:144px">
+        </div>
+        <div class="cake-sparkles"></div>
+      </div>
+      <div class="emoji-row">
+        <span>🎂🎉🎈✨🥳🍰</span>
+      </div>
+    </div>
+    <!-- Glowing Birthday Message -->
+    <div id="glow-text">
+      Happy 17th Birthday Ghousia <span class="emoji">🎂</span><br>
+      <span>May Allah bless you with endless joy and success. <span class="emoji">🕌🌸</span></span>
+    </div>
+    <!-- Boy wisher's photo and name -->
+    <div id="wisher-section">
+      <img id="wisher-photo" src="images/boy-wisher.jpg" alt="Birthday Wisher">
+      <div id="wisher-caption">
+        <span>With love from your friend</span>
+        <span class="emoji">🧑‍🎓</span>
+      </div>
+    </div>
+    <!-- Confetti -->
+    <img src="images/confetti.png" class="confetti-top" alt="Confetti Top">
+    <img src="images/confetti.png" class="confetti-bottom" alt="Confetti Bottom">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
